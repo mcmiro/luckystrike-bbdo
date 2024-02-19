@@ -1,0 +1,12 @@
+html,
+body {
+  background-color: #fff;
+}
+
+.bg-spin,
+header {
+  background-image: url('/assets/images/header-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

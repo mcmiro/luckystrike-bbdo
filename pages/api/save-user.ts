@@ -20,23 +20,15 @@ export default async function handler(
 ) {
   if (req.method === 'POST') {
     try {
-      const { name, email } = req.body;
+      const { name, email, dateOfBirth, createdAt } = req.body;
 
       // Get a connection from the pool
       const connection = await pool.getConnection();
 
-      // Log relevant connection information
-      console.log('Connection information:', {
-        host: connection.config.host,
-        user: connection.config.user,
-        database: connection.config.database,
-        port: connection.config.port,
-      });
-
       // Insert a new record into the 'users' table
       const [result] = await connection.execute(
-        'INSERT INTO users (name, email) VALUES (?, ?)',
-        [name, email]
+        'INSERT INTO users (full_name, email, date_of_birth, created_at) VALUES (?, ?, ?, ?)',
+        [name, email, dateOfBirth, createdAt]
       );
 
       // Release the connection back to the pool

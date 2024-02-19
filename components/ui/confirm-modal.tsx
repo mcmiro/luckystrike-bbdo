@@ -11,12 +11,12 @@ interface ConfirmModalProps {
 const ConfirmModal = ({ open, onConfirm, onAbort }: ConfirmModalProps) => {
   return (
     <Dialog open={open}>
-      <DialogContent className="px-[96px]">
+      <DialogContent className="px-[16px] w-[90%]">
         <Typography
           variant="h2"
           align="center"
           weight="bold"
-          className="uppercase text-secondary pt-[40px]"
+          className="uppercase text-secondary pt-[40px] mx-auto max-w-[376px]"
         >
           Du willst am Gewinnspiel teilnehmen?
         </Typography>
@@ -45,7 +45,7 @@ const ConfirmModal = ({ open, onConfirm, onAbort }: ConfirmModalProps) => {
         <Typography
           variant="md"
           align="center"
-          className="text-secondary pt-[24px] pb-[44px]"
+          className="text-secondary pt-[24px] pb-[44px] mx-auto max-w-[576px]"
         >
           Diese Seite enthält Informationen zu einem Nikotinprodukt und richtet
           sich ausschließlich an Erwachsene ab 18 Jahren in Österreich.

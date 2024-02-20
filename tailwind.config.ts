@@ -25,7 +25,7 @@ const config = {
         lg: ['1.25rem', '1.75rem'],
         h3: ['2rem', '2.125rem'],
         h2: ['2.5rem', '2.75rem'],
-        h1: ['3.75rem', '4.062rem'],
+        h1: ['3.5rem', '3.75rem'],
         '7xl': ['5.938rem', '5.96rem'],
       },
       colors: {

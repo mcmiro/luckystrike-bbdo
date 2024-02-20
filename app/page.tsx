@@ -38,7 +38,10 @@ export default function Home() {
           className="uppercase text-white pt-[156px]"
         >
           gewinne eine<br></br>
-          <span className="text-primary">Reise nach Irgendwo!</span>
+          <span className="text-primary">
+            All Inclusive Reise<br className="hidden md:block"></br> auf die
+            Malediven
+          </span>
         </Typography>
         <div className="max-w-[632px] mx-auto">
           <Typography
@@ -46,42 +49,37 @@ export default function Home() {
             align="center"
             className="text-white pt-[20px]"
           >
-            Trage deine Daten ein und sichere dir deinen Gewinnchance.<br></br>
-            <strong>Teilnahmeberechtigt</strong> sind Nikotinkonsument:innen{' '}
-            <strong>ab 18 Jahren</strong> mit Wohnsitz oder gewöhnlichem
-            Aufenthalt <strong>in Österreich</strong>.
+            Tausche kalte Wintertage gegen Entspannung an sonnigen Stränden und
+            schwimmen im türkis-blauen Wasser des Indischen Ozeans. Entdecke
+            dabei die vielfältige Natur der Malediven und lass dich in ihren
+            Bann ziehen.
           </Typography>
           <RegisterForm />
         </div>
       </header>
       <main className="bg-secondary relative -top-1">
         <div className="bg-white rounded-tl-[96px] md:rounded-tl-[296px]">
-          <div className="flex flex-col md:flex-row container mx-auto pt-[64px] md:pt-[180px] max-w-[960px]">
+          <div className="flex flex-col md:flex-row gap-8 items-center container mx-auto pt-[64px] md:pt-[180px] md:max-w-[1024px]">
             <div className="w-full">
               <Typography
                 variant="h1"
                 weight="bold"
-                className="text-primary text-h2 lg:text-h1 lg:w-[580px]"
+                className="text-primary text-h2 lg:text-h1"
               >
-                Erlebe Freiheit pur!
+                Weiße Strände und Blaues Wasser
               </Typography>
               <div className="max-w-[480px]">
                 <Typography variant="md" className="pt-[20px]">
-                  Stell dir vor, du gewinnst die Freiheit auf zwei Rädern! Mit
-                  deiner <strong>Vespa Elettrica 45</strong> kannst du die Welt
-                  erkunden, den Wind in den Haaren spüren und unvergessliche
-                  Abenteuer erleben. <br></br>
-                  <br></br>Verpasse nicht deine Chance auf dieses einzigartige
-                  Gefühl der Freiheit. Trage jetzt deinen Code ein und sei dabei
-                  in der Verlosung um den Hauptgewinn!
+                  Egal ob Hobby-Schnorchler oder Profi-Relaxer bei maledivischen
+                  Stränden geht jedem das Herz auf.
                 </Typography>
               </div>
             </div>
             <div className="w-full flex justify-center">
-              <div className="relative md:w-[360px] lg:w-[456px] h-full lg:-left-[40px]">
+              <div className="relative md:w-[360px] lg:w-[456px] h-full">
                 <Image
-                  src={'/assets/images/e-vespa.png'}
-                  alt="e-vespa gewinnspiel"
+                  src={'/assets/images/bild.png'}
+                  alt="gewinnspiel"
                   width="456"
                   height="304"
                 />

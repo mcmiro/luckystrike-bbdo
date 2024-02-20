@@ -1,5 +1,6 @@
 import { formSchema } from '@/lib/form-schema';
-import { z } from 'zod';
+import { useState } from 'react';
+import { boolean, z } from 'zod';
 
 export interface UserProps {
   fullName: string;
@@ -8,6 +9,8 @@ export interface UserProps {
 }
 
 const useUser = () => {
+  const [responseStatus, setResponseStatus] = useState<boolean>(false);
+
   const handleDateNow = () => {
     const today = new Date().toISOString().split('T')[0];
     return today;
@@ -37,7 +40,7 @@ const useUser = () => {
       });
       const result = await response.json();
       if (result) {
-        console.log('ok', result);
+        setResponseStatus(true);
       }
     } catch (error) {
       console.error('Error sending message to Slack:', error);
@@ -46,6 +49,7 @@ const useUser = () => {
 
   return {
     saveUser,
+    responseStatus,
   };
 };
 

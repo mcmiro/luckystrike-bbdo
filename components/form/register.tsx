@@ -18,6 +18,7 @@ import { z } from 'zod';
 import { formSchema } from '@/lib/form-schema';
 import useUser from '@/hooks/use-user';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 const RegisterForm = () => {
   const { saveUser, responseStatus } = useUser();
@@ -86,7 +87,10 @@ const RegisterForm = () => {
               )}
             />
             <Typography variant="sm" align="center" className="text-white">
-              * Ich akzeptiere die Teilnahmebedingungen
+              * Ich akzeptiere die{' '}
+              <Link href="#" className="underline">
+                Teilnahmebedingungen
+              </Link>
             </Typography>
             <div className="flex justify-center">
               <Button variant="outline" size="lg" type="submit">

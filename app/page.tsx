@@ -50,7 +50,7 @@ export default function Home() {
             className="text-white pt-[20px]"
           >
             Tausche kalte Wintertage gegen Entspannung an sonnigen Stränden und
-            schwimmen im türkis-blauen Wasser des Indischen Ozeans. Entdecke
+            Schwimmen im türkis-blauen Wasser des Indischen Ozeans. Entdecke
             dabei die vielfältige Natur der Malediven und lass dich in ihren
             Bann ziehen.
           </Typography>
@@ -78,7 +78,7 @@ export default function Home() {
             <div className="w-full flex justify-center">
               <div className="relative md:w-[360px] lg:w-[456px] h-full">
                 <Image
-                  src={'/assets/images/bild.png'}
+                  src={'/assets/images/mal.png'}
                   alt="gewinnspiel"
                   width="456"
                   height="304"

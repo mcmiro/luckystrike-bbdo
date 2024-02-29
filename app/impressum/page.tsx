@@ -10,109 +10,74 @@ export default function Home() {
           <Typography variant="h1" weight="bold" className="uppercase">
             Impressum
           </Typography>
-          <div className="max-w-[480px]">
+          <div>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Angaben gemäß § 5 TMG</strong>
+              <strong>Firma: </strong> British American Tobacco (Austria) GmbH{' '}
               <br></br>
-              Max Mustermann<br></br>
-              Musterstraße 123<br></br>
-              12345 Musterstadt
+              <strong>Rechtsform</strong>: Gesellschaft mit beschränkter Haftung
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Kontakt</strong>
-              <br></br>
-              Telefon: 01234 56789<br></br>
-              E-Mail: kontakt@beispielwebsite.de
+              <strong>Sitz: </strong>Wien<br></br>
+              <strong>Geschäftsanschrift: </strong>Dr.-Karl-Lueger-Platz 5, 1010
+              Wien
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Vertreten durch</strong>
-              <br></br>
-              Max Mustermann
+              <strong>Telefon: </strong>+43 (0)1/205 12 26-0<br></br>
+              <strong>Fax: </strong>+43 (0)1/205 12 26-01<br></br>
+              <strong>E-Mail: </strong>austria@bat.com
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Registereintrag</strong>
-              <br></br>
-              Eintragung im Handelsregister. <br></br>
-              Registergericht: Amtsgericht<br></br> Musterstadt Registernummer:
-              HRB 12345
+              <strong>
+                Geschäftsführer der British American Tobacco (Austria) GmbH:{' '}
+              </strong>
+              Markus Bluhm, Stefan Ulreich
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Umsatzsteuer-ID</strong>
+              <strong>Unternehmensgegenstand:</strong>
               <br></br>
-              Umsatzsteuer-Identifikationsnummer gemäß §27 a
-              Umsatzsteuergesetz:DE123456789
+              BAT mit Sitz in London ist ein führendes
+              „Multi-Category“-Konsumgüterunternehmen. BAT Austria ist ein
+              Tochterunternehmen der BAT Gruppe. Seit 2006 ist BAT Austria mit
+              einer Firmenniederlassung in Österreich vertreten und vertreibt
+              dort im Rahmen eines „Multi-Category-Ansatzes“ Tabak- &
+              Nikotinprodukte. Informierte, erwachsene Konsumentinnen und
+              Konsumenten stehen bei BAT Austria im Fokus. BAT Austria handelt
+              stets verantwortungsbewusst und auf Grundlage geltender Gesetze
+              sowie interner Richtlinien, wie beispielweise der konzernweit
+              geltenden Internationalen Marketingprinzipien, die zum Teil über
+              die gesetzlichen Vorschriften hinausgehen. Ob es um Jugendschutz,
+              Steuerpolitik, Nichtraucherschutz oder den Kampf gegen den
+              Schmuggel geht –BAT Austria setzt sich in der heimischen Tabak-
+              und Nikotinbranche für eine „Win-win-win-win“- Situation ein, um
+              den Interessen von Konsumentinnen und Konsumenten, Trafiken, Staat
+              und Herstellern gerecht zu werden.
             </Typography>
           </div>
           <div>
             <Typography variant="md" className="pt-[20px]">
-              <strong className="uppercase">
-                Haftungsausschluss <br></br>(Disclaimer)
-              </strong>
+              <strong>Firmenbuchnummer: </strong>FN 272585k
               <br></br>
-              <strong>Haftung für Inhalte</strong>
-              <br></br>
-              Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt.
-              Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte
-              können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter
-              sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
-              nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG
-              sind wir als Diensteanbieter jedoch nicht verpflichtet,
-              übermittelte oder gespeicherte fremde Informationen zu überwachen
-              oder nach Umständen zu forschen, die auf eine rechtswidrige
-              Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung
-              der Nutzung von Informationen nach den allgemeinen Gesetzen
-              bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch
-              erst ab dem Zeitpunkt der Kenntnis einer konkreten
-              Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
-              Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+              <strong>Firmenbuchgericht: </strong>Handelsgericht Wien<br></br>
+              <strong>UID-Nummer: </strong>ATU 62219879
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Haftung für Links</strong>
-              <br></br>
-              Unser Angebot enthält Links zu externen Webseiten Dritter, auf
-              deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
-              diese fremden Inhalte auch keine Gewähr übernehmen. Für die
-              Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter
-              oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
-              wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße
-              überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der
-              Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle
-              der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
-              Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von
-              Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+              <strong>Behörde: </strong>Magistratisches Bezirksamt für den 1.,
+              8. Bezirk<br></br>
+              <strong>Kammerzugehörigkeit: </strong>Wirtschaftskammer Wien
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              <strong>Urheberrecht</strong>
-              <br></br>
-              Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
-              diesen Seiten unterliegen dem deutschen Urheberrecht. Die
-              Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
-              Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
-              schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
-              Downloads und Kopien dieser Seite sind nur für den privaten, nicht
-              kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser
-              Seite nicht vom Betreiber erstellt wurden, werden die
-              Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
-              Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-              Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
-              entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
-              werden wir derartige Inhalte umgehend entfernen.
-            </Typography>
-            <Typography variant="md" className="pt-[20px]">
-              <strong>Bildnachweise</strong>
-              <br></br>
-              Die verwendeten Bilder auf dieser Website stammen von folgenden
-              Quellen: [Name der Bildquelle/n oder Fotograf/en].
-            </Typography>
-            <Typography variant="md" className="pt-[20px]">
-              <strong>Quelle</strong>
-              <br></br>
-              Muster-Impressum von anwalt.org
+              Fachgruppe/Berufsgruppe: Fachgruppe Werbung &
+              Marktkommunikation/Werbeagentur Offenlegung der
+              Beteiligungsverhältnisse gemäß § 25 Abs 2 MedienG: Weston
+              Investment Company limited, Business address: Globe House, 4
+              Temple Place, London WC2R 2PG, Gesellschaftsregisteramt für
+              England und Wales Nummer: 179244, Informationen laut ECG
             </Typography>
           </div>
           <div className="container mx-auto flex justify-center gap-8 text-sm pt-[174px] pb-12">
             <Link href="/">Home</Link>
             <Link href="/datenschutz">Datenschutz</Link>
+            <Link href="/teilnahmebedingungen">Teilnahmebedingungen</Link>
           </div>
         </div>
       </main>

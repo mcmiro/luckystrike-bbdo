@@ -88,7 +88,7 @@ const RegisterForm = () => {
             />
             <Typography variant="sm" align="center" className="text-white">
               * Ich akzeptiere die{' '}
-              <Link href="#" className="underline">
+              <Link href="/teilnahmebedingungen" className="underline">
                 Teilnahmebedingungen
               </Link>
             </Typography>

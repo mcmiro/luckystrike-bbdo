@@ -96,6 +96,7 @@ export default function Home() {
         />
         <Link href="/impressum">Impressum</Link>
         <Link href="/datenschutz">Datenschutz</Link>
+        <Link href="/teilnahmebedingungen">Teilnahmebedingungen</Link>
       </footer>
     </>
   );

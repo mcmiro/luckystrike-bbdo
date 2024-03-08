@@ -8,7 +8,7 @@ export default function Home() {
       <main className="bg-spin min-h-screen">
         <div className="flex flex-col container mx-auto pt-[80px] max-w-[960px] text-white">
           <Typography variant="h1" weight="bold" className="uppercase">
-            TEILNAHMEBEDINGUNGEN FÜR DAS BAT AUSTRIA REISEGEWINNSPIEL 2023
+            TEILNAHMEBEDINGUNGEN FÜR DAS BAT AUSTRIA REISEGEWINNSPIEL 2024
           </Typography>
           <div>
             <Typography variant="md" className="pt-[20px]">
@@ -87,6 +87,12 @@ export default function Home() {
               So nehmen Sie am Wettbewerb teil
             </Typography>
             <Typography variant="md" className="pt-[20px]">
+              10. Um am Wettbewerb teilzunehmen, muss jeder teilnahmeberechtigte
+              Teilnehmer seine E-Mail-Adresse und weitere Daten (&quot;die
+              Bewerbung&quot;) auf der dafür vorgesehene Website
+              yournewhighlight.at eingeben.
+            </Typography>
+            <Typography variant="md" className="pt-[20px]">
               11. Durch die Teilnahme am Gewinnspiel erklären Sie sich damit
               einverstanden, keine falschen oder irreführenden personenbezogenen
               Daten anzugeben. Sie dürfen Ihre Teilnahme unter keinen Umständen
@@ -107,20 +113,18 @@ export default function Home() {
               Geschäftsbedingungen).
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              13. Der Gewinner wird bis Freitag 13. September 2024 von uns per
+              13. Der Gewinner wird bis Freitag 6. September 2024 von uns per
               Mail benachrichtigt.
             </Typography>
             <Typography variant="md" className="pt-[20px]">
               14. Der Veranstalter behält sich das Recht vor, den Preis von
               jedem Gewinner zurückzuziehen und einen Ersatzgewinner gemäß dem
               in Klausel 12 oben beschriebenen Verfahren auszuwählen, falls
-              einer der folgenden Umstände vorliegt:<br></br>
-              a. wenn der Gewinner nach angemessenen Versuchen nicht kontaktiert
-              werden kann;<br></br>
-              b. wenn der Gewinner den Preis nicht innerhalb von fünf (5) Tagen
-              nach Benachrichtigung beansprucht; oder<br></br>
-              c. wenn der Gewinner dem Veranstalter auf Anfrage keinen
-              Altersnachweis vorlegt.
+              einer der folgenden Umstände vorliegt: a. wenn der Gewinner nach
+              angemessenen Versuchen nicht kontaktiert werden kann; b. wenn der
+              Gewinner den Preis nicht innerhalb von fünf (5) Tagen nach
+              Benachrichtigung beansprucht; oder c. wenn der Gewinner dem
+              Veranstalter auf Anfrage keinen Altersnachweis vorlegt.
             </Typography>
             <Typography variant="md" weight="bold" className="pt-[20px]">
               Der Preis
@@ -239,12 +243,12 @@ export default function Home() {
               Preises oder eines Teils dieses Wettbewerbs angegeben sind.
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              28. Die Entscheidung des Veranstalters in Bezug auf alle
+              29. Die Entscheidung des Veranstalters in Bezug auf alle
               Angelegenheiten, die mit dem Wettbewerb zu tun haben, ist
               endgültig und es wird keine Korrespondenz geführt.
             </Typography>
             <Typography variant="md" className="pt-[20px]">
-              29. Der Wettbewerb und diese Teilnahmebedingungen unterliegen
+              30. Der Wettbewerb und diese Teilnahmebedingungen unterliegen
               österreichischem Recht und alle Streitigkeiten unterliegen der
               ausschließlichen Zuständigkeit der Gerichte von Österreich. Die
               Gesetze einer anderen Gerichtsbarkeit und die Zuständigkeit

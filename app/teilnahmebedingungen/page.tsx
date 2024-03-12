@@ -78,8 +78,8 @@ export default function Home() {
             <Typography variant="md" className="pt-[20px]">
               9. Das Startdatum für die Teilnahme am Wettbewerb ist 06:00 CET am
               11. März 2024 (&quot;das Startdatum&quot;), Einsendeschluss für
-              den Wettbewerb ist 23:59 CET am 31. August 2024.. Nach diesem
-              Datum sind keine weiteren Teilnahmen am Wettbewerb mehr zulässig.
+              den Wettbewerb ist 23:59 CET am 31. August 2024. Nach diesem Datum
+              sind keine weiteren Teilnahmen am Wettbewerb mehr zulässig.
               Anmeldungen, die nach dem Einsendeschluss eingehen, werden nicht
               berücksichtigt.
             </Typography>

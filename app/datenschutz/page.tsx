@@ -56,14 +56,6 @@ export default function Home() {
                     </a>
                     .
                   </li>
-                  <li className="pl-4 pt-4">
-                    Unseren betrieblichen Datenschutzbeauftragten erreichst Du
-                    unter der E-Mail-Adresse{' '}
-                    <a href="mailto:austria@bat.com" className="underline">
-                      austria@bat.com
-                    </a>
-                    .
-                  </li>
                 </ol>
                 <ol className="pl-4 pt-4">
                   2. Betroffenenrechte

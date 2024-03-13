@@ -49,7 +49,7 @@ export default function Home() {
             align="center"
             className="text-white pt-[20px]"
           >
-            Tausche kalte Wintertage gegen Entspannung an sonnigen Stränden und
+            Tausche eintönigen Alltag gegen Entspannung an sonnigen Stränden und
             Schwimmen im türkis-blauen Wasser des Indischen Ozeans. Entdecke
             dabei die vielfältige Natur der Malediven und lass dich in ihren
             Bann ziehen.

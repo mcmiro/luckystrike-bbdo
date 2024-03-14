@@ -5,8 +5,13 @@ body {
 
 .bg-spin,
 header {
-  background-image: url('/assets/images/header-bg.jpg');
+  background: rgb(98, 197, 245);
+  background: radial-gradient(
+    circle,
+    rgba(98, 197, 245, 1) 0%,
+    rgba(2, 0, 36, 1) 100%
+  );
   background-repeat: no-repeat;
-  background-position: top right;
-  background-color: #0c2753;
+  background-size: 200% 200%;
+  background-position: left top;
 }

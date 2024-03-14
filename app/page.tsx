@@ -17,6 +17,15 @@ export default function Home() {
     if (!hasVisited) {
       setOpenModal(true);
     }
+
+    const mainElement = document.querySelector('main');
+    const currentHeight = mainElement!.offsetHeight; // Get the current width of the main element
+
+    // Reduce the width by 320px if it's larger than 320px
+    const newHeight = currentHeight > 320 ? currentHeight - 320 : currentHeight;
+
+    // Set the new width to the main element
+    mainElement!.style.height = newHeight + 'px';
   }, []);
 
   const handleGoBack = () => {
@@ -30,7 +39,7 @@ export default function Home() {
 
   return (
     <>
-      <header className="pb-[124px] px-4">
+      <header className="pb-[444px] px-4">
         <Typography
           variant="h1"
           weight="bold"
@@ -57,7 +66,7 @@ export default function Home() {
           <RegisterForm />
         </div>
       </header>
-      <main className="bg-secondary relative -top-1">
+      <main className="relative -top-[320px]">
         <div className="bg-white rounded-tl-[96px] md:rounded-tl-[296px]">
           <div className="flex flex-col md:flex-row gap-8 items-center container mx-auto pt-[64px] md:pt-[180px] md:max-w-[1024px]">
             <div className="w-full">

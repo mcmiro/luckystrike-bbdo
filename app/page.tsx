@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import Typography from '@/components/ui/typography';
 import Link from 'next/link';
-import RegisterForm from '@/components/form/register';
 import ConfirmModal from '@/components/ui/confirm-modal';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -19,12 +18,8 @@ export default function Home() {
     }
 
     const mainElement = document.querySelector('main');
-    const currentHeight = mainElement!.offsetHeight; // Get the current width of the main element
-
-    // Reduce the width by 320px if it's larger than 320px
+    const currentHeight = mainElement!.offsetHeight;
     const newHeight = currentHeight > 320 ? currentHeight - 320 : currentHeight;
-
-    // Set the new width to the main element
     mainElement!.style.height = newHeight + 'px';
   }, []);
 
@@ -46,11 +41,7 @@ export default function Home() {
           align="center"
           className="uppercase text-white pt-[156px]"
         >
-          gewinne eine<br></br>
-          <span className="text-primary">
-            All Inclusive Reise<br className="hidden md:block"></br> auf die
-            Malediven
-          </span>
+          Vielen Dank für die Teilnahme
         </Typography>
         <div className="max-w-[632px] mx-auto">
           <Typography
@@ -58,12 +49,9 @@ export default function Home() {
             align="center"
             className="text-white pt-[20px]"
           >
-            Tausche eintönigen Alltag gegen Entspannung an sonnigen Stränden und
-            Schwimmen im türkis-blauen Wasser des Indischen Ozeans. Entdecke
-            dabei die vielfältige Natur der Malediven und lass dich in ihren
-            Bann ziehen.
+            Das Gewinnspiel ist beendet, die Teilnehmer:innen werden bis 06.
+            September per Mail benachrichtigt.
           </Typography>
-          <RegisterForm />
         </div>
       </header>
       <main className="relative -top-[320px]">
